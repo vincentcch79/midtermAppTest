@@ -10,9 +10,14 @@
 		9FCB07EA1D13CA8500641C29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB07E91D13CA8500641C29 /* AppDelegate.swift */; };
 		9FCB07EC1D13CA8500641C29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB07EB1D13CA8500641C29 /* ViewController.swift */; };
 		9FCB07EF1D13CA8500641C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCB07ED1D13CA8500641C29 /* Main.storyboard */; };
-		9FCB07F21D13CA8500641C29 /* midtermExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB07F01D13CA8500641C29 /* midtermExam.xcdatamodeld */; };
 		9FCB07F41D13CA8500641C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCB07F31D13CA8500641C29 /* Assets.xcassets */; };
 		9FCB07F71D13CA8500641C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCB07F51D13CA8500641C29 /* LaunchScreen.storyboard */; };
+		9FCB07FF1D13CD3800641C29 /* MovieIntroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB07FE1D13CD3800641C29 /* MovieIntroTableViewController.swift */; };
+		9FCB08021D13D1E200641C29 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB08001D13D1E200641C29 /* CustomTableViewCell.swift */; };
+		9FCB08031D13D1E200641C29 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FCB08011D13D1E200641C29 /* CustomTableViewCell.xib */; };
+		9FCB08051D13D99900641C29 /* movieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB08041D13D99900641C29 /* movieDetailViewController.swift */; };
+		9FCB08071D13E97100641C29 /* movieClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB08061D13E97100641C29 /* movieClass.swift */; };
+		9FCB08091D13F21500641C29 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB08081D13F21500641C29 /* SignViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,15 @@
 		9FCB07E91D13CA8500641C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FCB07EB1D13CA8500641C29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FCB07EE1D13CA8500641C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9FCB07F11D13CA8500641C29 /* midtermExam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = midtermExam.xcdatamodel; sourceTree = "<group>"; };
 		9FCB07F31D13CA8500641C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FCB07F61D13CA8500641C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FCB07F81D13CA8500641C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCB07FE1D13CD3800641C29 /* MovieIntroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieIntroTableViewController.swift; sourceTree = "<group>"; };
+		9FCB08001D13D1E200641C29 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9FCB08011D13D1E200641C29 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		9FCB08041D13D99900641C29 /* movieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movieDetailViewController.swift; sourceTree = "<group>"; };
+		9FCB08061D13E97100641C29 /* movieClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movieClass.swift; sourceTree = "<group>"; };
+		9FCB08081D13F21500641C29 /* SignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +72,12 @@
 				9FCB07F31D13CA8500641C29 /* Assets.xcassets */,
 				9FCB07F51D13CA8500641C29 /* LaunchScreen.storyboard */,
 				9FCB07F81D13CA8500641C29 /* Info.plist */,
-				9FCB07F01D13CA8500641C29 /* midtermExam.xcdatamodeld */,
+				9FCB07FE1D13CD3800641C29 /* MovieIntroTableViewController.swift */,
+				9FCB08001D13D1E200641C29 /* CustomTableViewCell.swift */,
+				9FCB08011D13D1E200641C29 /* CustomTableViewCell.xib */,
+				9FCB08041D13D99900641C29 /* movieDetailViewController.swift */,
+				9FCB08061D13E97100641C29 /* movieClass.swift */,
+				9FCB08081D13F21500641C29 /* SignViewController.swift */,
 			);
 			path = midtermExam;
 			sourceTree = "<group>";
@@ -127,6 +142,7 @@
 			files = (
 				9FCB07F71D13CA8500641C29 /* LaunchScreen.storyboard in Resources */,
 				9FCB07F41D13CA8500641C29 /* Assets.xcassets in Resources */,
+				9FCB08031D13D1E200641C29 /* CustomTableViewCell.xib in Resources */,
 				9FCB07EF1D13CA8500641C29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCB08091D13F21500641C29 /* SignViewController.swift in Sources */,
 				9FCB07EC1D13CA8500641C29 /* ViewController.swift in Sources */,
-				9FCB07F21D13CA8500641C29 /* midtermExam.xcdatamodeld in Sources */,
+				9FCB07FF1D13CD3800641C29 /* MovieIntroTableViewController.swift in Sources */,
+				9FCB08021D13D1E200641C29 /* CustomTableViewCell.swift in Sources */,
 				9FCB07EA1D13CA8500641C29 /* AppDelegate.swift in Sources */,
+				9FCB08051D13D99900641C29 /* movieDetailViewController.swift in Sources */,
+				9FCB08071D13E97100641C29 /* movieClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,19 +312,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9FCB07F01D13CA8500641C29 /* midtermExam.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9FCB07F11D13CA8500641C29 /* midtermExam.xcdatamodel */,
-			);
-			currentVersion = 9FCB07F11D13CA8500641C29 /* midtermExam.xcdatamodel */;
-			path = midtermExam.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9FCB07DE1D13CA8500641C29 /* Project object */;
 }
