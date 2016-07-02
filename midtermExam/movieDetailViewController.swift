@@ -14,6 +14,9 @@ class movieDetailViewController: UIViewController {
     
     @IBOutlet weak var movieDetailIntro: UILabel!
     
+//    @IBOutlet weak var ScrollView: UIScrollView!
+    
+    
     var movieDetail:movies!
     
     override func viewDidLoad() {
@@ -21,7 +24,6 @@ class movieDetailViewController: UIViewController {
         self.title = movieDetail.name
         movieDetailPoster.image = UIImage(named: movieDetail.image)
         movieDetailIntro.text = movieDetail.intro
-        
         
         // Do any additional setup after loading the view.
     }
